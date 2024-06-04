@@ -25,9 +25,12 @@ Make My ReadMe generates ReadMe files through a streamlined set of questions. Th
 
 
 ## Usage
-
+Here is a screenshot of the terminal with example entry input:
 ![Alt text](./utils/images/terminalSS.png)
+Here is a screenshot of the preview of the newly generated ReadMe File:
 ![Alt text](./utils/images/readMePreview.png)
+Here is a link to a video demonstrating use of this app using command line tools:
+[link to video](https://youtu.be/SumLRU_1EII) 
 
 ## Links
 

@@ -1,8 +1,8 @@
 
-# Make me Readme!
+# Make My ReadMe
 
 ## Description
-Make me Readme generates readMe files using a streamlined series of questions
+This app generates readMe files by standardizing questions to create a universal outline of content
 
 ## Table of Contents
 - [Installation](#installation)
@@ -16,10 +16,10 @@ Make me Readme generates readMe files using a streamlined series of questions
 - [Questions](#questions)
 
 ## Installation
-To install, make sure to download inquirer version 8.2.6
+to install, please download inquirer version 8.2.6 using command line
 
 ## Usage
-Make me Readme is made for project or content creators who want to outline the function of their work in streamline fashion
+this project serves content and project creators looking to outline their work in a standardized fashion
 
 ## License
 
@@ -32,5 +32,5 @@ none
 
 ## Questions
 [link to GitHub](https://github.com/JohnDoe)
-For more questions, please do not hesitate to reach me at my [email]John@Doe.com!
+For more questions, please do not hesitate to reach me at my [email]John@Doe.net!
 
