@@ -26,8 +26,8 @@ Make My ReadMe generates ReadMe files through a streamlined set of questions. Th
 
 ## Usage
 
-![Alt text](/assets/images/Fitness%20Finder.gif)
 ![Alt text](./utils/images/terminalSS.png)
+![Alt text](./utils/images/readMePreview.png)
 
 ## Links
 

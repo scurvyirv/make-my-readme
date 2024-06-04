@@ -3,15 +3,15 @@
 function renderLicenseBadge(license) {
     switch (license) {
         case 'MIT License':
-            return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]';
+            return '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)';
         case 'Apache License 2.0':
-            return '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]';
+            return '![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)';
         case 'Boost Software License 1.0':
-            return '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]';
+            return '![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)';
         case 'Mozilla Public License 2.0':
-            return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]';
+            return '![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)';
         case 'GNU General Public License v2.0':
-            return '[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)]';
+            return '![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)';
         default : 
             return '';
     }
@@ -43,11 +43,11 @@ function renderLicenseSection(license) {
     let licenseText = '';
     if(license) {
         licenseText =
-        `
-    ## License
+    `
+## License
 
-    This program is covered under the [${license}]${renderLicenseLink(license)}.
-        `
+This program is covered under the [${license}]${renderLicenseLink(license)}.
+    `
     }
     return licenseText;
 }
@@ -55,34 +55,37 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
     let {title, description, install, usage, license, guidelines, github, email} = data;
-    return `
-    # Title
-    ${title}
+return `
+# ${title}
 
-    ## Description
-    ${description}
+## Description
+${description}
 
-    ## Table of Contents
-    -[Installation](#installation)
-    -[Usage](#usage)
-    -[License](#license)
-    -[Guidelines](#guidelines)
-    -[Questions](#questions)
+## Table of Contents
+- [Installation](#installation)
 
-    ## Installation
-    ${install}
+- [Usage](#usage)
 
-    ## Usage
-    ${usage}
-    ${renderLicenseSection(license)}
-    ${renderLicenseBadge(license)}
+- [License](#license)
 
-    ## Guidelines
-    ${guidelines}
+- [Guidelines](#guidelines)
 
-    ## Questions
-    [link to GitHub](https://github.com/${github})
-    For more questions, please do not hesitate to email me at [email]${email}!
+- [Questions](#questions)
+
+## Installation
+${install}
+
+## Usage
+${usage}
+${renderLicenseSection(license)}
+${renderLicenseBadge(license)}
+
+## Guidelines
+${guidelines}
+
+## Questions
+[link to GitHub](https://github.com/${github})
+For more questions, please do not hesitate to reach me at my [email]${email}!
 
 `;
 }

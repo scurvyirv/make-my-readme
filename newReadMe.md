@@ -1,33 +1,36 @@
 
-    # Title
-    How To Create a ReadMe
+# Make me Readme!
 
-    ## Description
-    ReadMe's can be a challenge to new users. This project generates ReadMe files that are personalized to the user's goals.
+## Description
+Make me Readme generates readMe files using a streamlined series of questions
 
-    ## Table of Contents
-    -[Installation](#installation)
-    -[Usage](#usage)
-    -[License](#license)
-    -[Guidelines](#guidelines)
-    -[Questions](#questions)
+## Table of Contents
+- [Installation](#installation)
 
-    ## Installation
-    to install, the user needs inquirer version 8.2.6
+- [Usage](#usage)
 
-    ## Usage
-    This project aims to streamline the ways users generate readMe files
+- [License](#license)
+
+- [Guidelines](#guidelines)
+
+- [Questions](#questions)
+
+## Installation
+To install, make sure to download inquirer version 8.2.6
+
+## Usage
+Make me Readme is made for project or content creators who want to outline the function of their work in streamline fashion
+
+## License
+
+This program is covered under the [MIT License](https://opensource.org/licenses/MIT).
     
-    ## License
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-    This program is covered under the [Apache License 2.0](https://opensource.org/licenses/Apache-2.0).
-        
-    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]
+## Guidelines
+none
 
-    ## Guidelines
-    none, just your input!
-
-    ## Questions
-    [link to GitHub](https://github.com/testSubject)
-    For more questions, please do not hesitate to email me at [email]test@subject.test!
+## Questions
+[link to GitHub](https://github.com/JohnDoe)
+For more questions, please do not hesitate to reach me at my [email]John@Doe.com!
 
